@@ -18,7 +18,17 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "oxocarbon",
+  colorscheme = "everforest",
+  plugins = {
+    {
+      "sainhe/everforest",
+      init = function()
+        vim.g.everforest_background = 'hard'
+        vim.g.everforest_better_performance = 1
+      end
+    },
+  },
+
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
