@@ -18,16 +18,16 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "everforest",
-  plugins = {
-    {
-      "sainhe/everforest",
-      init = function()
-        vim.g.everforest_background = 'hard'
-        vim.g.everforest_better_performance = 1
-      end
-    },
-  },
+  colorscheme = "poimandres",
+  -- plugins = {
+  --   {
+  --     "sainhe/everforest",
+  --     init = function()
+  --       vim.g.everforest_background = 'hard'
+  --       vim.g.everforest_better_performance = 1
+  --     end
+  --   },
+  -- },
 
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
