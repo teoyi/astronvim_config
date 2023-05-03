@@ -8,4 +8,5 @@ return {
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.colorscheme.oxocarbon" },
   { import = "astrocommunity.colorscheme.everforest" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
 }
