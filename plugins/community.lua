@@ -19,7 +19,7 @@ return {
   { import = "astrocommunity.diagnostics.trouble-nvim" },
 
   -- Editing Support
-  { import = "astrocommunity.editing-support.auto-save-nvim" },
+  -- { import = "astrocommunity.editing-support.auto-save-nvim" },
 
   -- Git
   { import = "astrocommunity.git.git-blame-nvim" },
