@@ -18,7 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "oxocarbon",
+  colorscheme = "kanagawa",
   -- plugins = {
   --   {
   --     "sainhe/everforest",

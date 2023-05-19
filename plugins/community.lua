@@ -14,7 +14,7 @@ return {
   { import = "astrocommunity.colorscheme.oxocarbon" },
   { import = "astrocommunity.colorscheme.everforest" },
   { import = "astrocommunity.colorscheme.poimandres" },
-
+  { import = "astrocommunity.colorscheme.kanagawa" },
   -- Diagnostics
   { import = "astrocommunity.diagnostics.trouble-nvim" },
 
@@ -29,16 +29,6 @@ return {
 
   -- Markdown and Latex
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
-
-  -- Language Packs
-  -- { import = "astrocommunity.pack.go" },
-  -- { import = "astrocommunity.pack.lua" },
-  -- { import = "astrocommunity.pack.php" },
-  -- { import = "astrocommunity.pack.svelte" },
-  -- { import = "astrocommunity.pack.tailwindcss" },
-  -- { import = "astrocommunity.pack.typescript-all-in-one" },
-  -- { import = "astrocommunity.pack.yaml" },
-
   -- Syntax
   { import = "astrocommunity.syntax.hlargs-nvim" },
 
