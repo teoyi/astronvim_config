@@ -18,7 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "kanagawa-dragon",
+  colorscheme = "everforest",
   plugins = {
     {
       "sainhe/everforest",

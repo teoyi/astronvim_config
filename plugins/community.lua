@@ -11,15 +11,15 @@ return {
   { import = "astrocommunity.color.tint-nvim" },
 
   -- ColorScheme
-  { import = "astrocommunity.colorscheme.oxocarbon" },
   { import = "astrocommunity.colorscheme.everforest" },
-  { import = "astrocommunity.colorscheme.poimandres" },
-  { import = "astrocommunity.colorscheme.kanagawa" },
+  { import = "astrocommunity.colorscheme.kanagawa-nvim" },
+
   -- Diagnostics
   { import = "astrocommunity.diagnostics.trouble-nvim" },
 
   -- Editing Support
   { import = "astrocommunity.editing-support.auto-save-nvim" },
+  { import = "astrocommunity.editing-support.true-zen-nvim" },
 
   -- Git
   { import = "astrocommunity.git.git-blame-nvim" },
