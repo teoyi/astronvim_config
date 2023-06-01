@@ -33,5 +33,4 @@ return {
 
   -- Utility
   { import = "astrocommunity.utility.transparent-nvim" },
-  { import = "astrocommunity.utility.neodim" },
 }
