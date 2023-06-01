@@ -13,6 +13,7 @@ return {
   -- ColorScheme
   { import = "astrocommunity.colorscheme.everforest" },
   { import = "astrocommunity.colorscheme.kanagawa-nvim" },
+  { import = "astrocommunity.colorscheme.nightfox-nvim" },
 
   -- Diagnostics
   { import = "astrocommunity.diagnostics.trouble-nvim" },

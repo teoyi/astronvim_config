@@ -18,14 +18,50 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "everforest",
+  colorscheme = "terafox",
+  -- plugins = {
+  --   {
+  --     "sainhe/everforest",
+  --     init = function()
+  --       vim.g.everforest_background = 'hard'
+  --       vim.g.everforest_better_performance = 1
+  --     end
+  --   },
+  -- },
   plugins = {
-    {
-      "sainhe/everforest",
-      init = function()
-        vim.g.everforest_background = 'hard'
-        vim.g.everforest_better_performance = 1
-      end
+    init = {
+      {
+        "EdenEast/nightfox.nvim",
+        config = function()
+          require("nightfox").setup {
+            -- disable extra plugins that AstroNvim doesn't use (this is optional)
+            modules = {
+              barbar = false,
+              dashboard = false,
+              fern = false,
+              fidget = false,
+              gitgutter = false,
+              glyph_palette = false,
+              illuminate = false,
+              lightspeed = false,
+              lsp_saga = false,
+              lsp_trouble = false,
+              modes = false,
+              neogit = false,
+              nvimtree = false,
+              pounce = false,
+              sneak = false,
+              symbols_outline = false,
+            },
+            groups = {
+              all = {
+                -- add highlight group for AstroNvim's built in URL highlighting
+                HighlightURL = { style = "underline" },
+              },
+            },
+          }
+        end,
+      },
     },
   },
 
