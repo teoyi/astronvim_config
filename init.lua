@@ -18,7 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "minicyan",
+  colorscheme = "tokyonight-night",
   -- plugins = {
   --   {
   --     "sainhe/everforest",
@@ -64,7 +64,6 @@ return {
   --     },
   --   },
   -- },
-
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
