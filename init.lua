@@ -18,7 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  colorscheme = "catppuccin-mocha",
   -- plugins = {
   --   {
   --     "sainhe/everforest",
@@ -28,42 +28,13 @@ return {
   --     end
   --   },
   -- },
-  -- plugins = {
-  --   init = {
-  --     {
-  --       "EdenEast/nightfox.nvim",
-  --       config = function()
-  --         require("nightfox").setup {
-  --           -- disable extra plugins that AstroNvim doesn't use (this is optional)
-  --           modules = {
-  --             barbar = false,
-  --             dashboard = false,
-  --             fern = false,
-  --             fidget = false,
-  --             gitgutter = false,
-  --             glyph_palette = false,
-  --             illuminate = false,
-  --             lightspeed = false,
-  --             lsp_saga = false,
-  --             lsp_trouble = false,
-  --             modes = false,
-  --             neogit = false,
-  --             nvimtree = false,
-  --             pounce = false,
-  --             sneak = false,
-  --             symbols_outline = false,
-  --           },
-  --           groups = {
-  --             all = {
-  --               -- add highlight group for AstroNvim's built in URL highlighting
-  --               HighlightURL = { style = "underline" },
-  --             },
-  --           },
-  --         }
-  --       end,
-  --     },
-  --   },
-  -- },
+  plugins = {
+    {
+      "catppuccin/nvim",
+      name = "catppuccin",
+      config = function() require("catppuccin").setup {} end,
+    },
+  },
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -127,4 +98,31 @@ return {
     --   },
     -- }
   end,
+
+  heirline = {
+    separators = {
+      none = { "", "" },
+      left = { "", "  " },
+      right = { "  ", "" },
+      center = { "  ", "  " },
+      tab = { "", " " },
+      breadcrumbs = "  ",
+      path = "  ",
+    },
+    attributes = {
+      buffer_active = { bold = true, italic = true },
+      buffer_picker = { bold = true },
+      macro_recording = { bold = true },
+      git_branch = { bold = true },
+      git_diff = { bold = true },
+    },
+    icon_highlights = {
+      breadcrumbs = true,
+      file_icon = {
+        tabline = function(self) return self.is_active or self.is_visible end,
+        statusline = true,
+        winbar = false,
+      },
+    },
+  },
 }

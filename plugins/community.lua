@@ -16,10 +16,8 @@ return {
   { import = "astrocommunity.color.tint-nvim" },
 
   -- ColorScheme
-  { import = "astrocommunity.colorscheme.everforest" },
-  { import = "astrocommunity.colorscheme.kanagawa-nvim" },
-  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.colorscheme.gruvbox-baby" },
+  { import = "astrocommunity.colorscheme.catppuccin" },
 
   -- Diagnostics
   { import = "astrocommunity.diagnostics.trouble-nvim" },
