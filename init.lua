@@ -18,7 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "tokyonight-night",
+  colorscheme = "astrodark",
   -- plugins = {
   --   {
   --     "sainhe/everforest",

@@ -19,6 +19,7 @@ return {
   { import = "astrocommunity.colorscheme.everforest" },
   { import = "astrocommunity.colorscheme.kanagawa-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  { import = "astrocommunity.colorscheme.gruvbox-baby" },
 
   -- Diagnostics
   { import = "astrocommunity.diagnostics.trouble-nvim" },
@@ -34,6 +35,10 @@ return {
 
   -- Markdown and Latex
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+
+  -- Motion
+  { import = "astrocommunity.motion.hop-nvim" },
+
   -- Syntax
   { import = "astrocommunity.syntax.hlargs-nvim" },
 
