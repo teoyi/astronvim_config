@@ -16,8 +16,6 @@ return {
   { import = "astrocommunity.color.tint-nvim" },
 
   -- ColorScheme
-  { import = "astrocommunity.colorscheme.gruvbox-baby" },
-  { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.nightfox-nvim" },
 
   -- Diagnostics
@@ -25,12 +23,17 @@ return {
 
   -- Editing Support
   { import = "astrocommunity.editing-support.auto-save-nvim" },
+  { import = "astrocommunity.editing-support.cutlass-nvim" },
 
   -- Git
   { import = "astrocommunity.git.git-blame-nvim" },
 
   -- Indent
   { import = "astrocommunity.indent.indent-blankline-nvim" },
+
+  -- lsp
+  { import = "astrocommunity.lsp.inc-rename-nvim" },
+  { import = "astrocommunity.lsp.lsp-signature-nvim" },
 
   -- Markdown and Latex
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
