@@ -18,7 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "terafox",
+  colorscheme = "minischeme",
   -- plugins = {
   --   init = {
   --     {

@@ -17,6 +17,7 @@ return {
 
   -- ColorScheme
   { import = "astrocommunity.colorscheme.nightfox-nvim" },
+  { import = "astrocommunity.colorscheme.mini-base16" },
 
   -- Diagnostics
   { import = "astrocommunity.diagnostics.trouble-nvim" },
